@@ -1,0 +1,24 @@
+
+# Firebase Credentials
+scammerlist-firebase.json
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Babel ES6 compiles files
+dist
+
+# .env
+.env
+
+# Loggin files
+loggin
+
+# Build files
+build
+
+# Loggin
+loggin
