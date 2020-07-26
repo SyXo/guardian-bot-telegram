@@ -1,17 +1,10 @@
 const messagesDefine = {
   es: {
     start: `Hola soy The Guardian voy a protegerte de los estafadores, para poder hacerlo necesito que me informes qué usuarios son sospechosos.
+    \n El listado se arma por la comunidad cualquier usuario puede enviar un presunto scammer para ser agregado.
     \n Para obtener un listado de comandos escriba /help.
     `,
-    create: `El listado de jugadores fue creado con exito \u{1F609}\u{1F44F}!`,
-    error: `Ocurrió un error en el servidor \u{1F648}\u{1F649}\u{1F64A}`,
-    assist: `confirma asistencia \u{1F446}`,
-    notassist: `se baja \u{1F485}\u{1F486}\u{1F487}`,
-    listempty: `No hay confirmados \u{1F62D}`,
-    listheader: `<b>\u{26BD} Listado de Confirmados \u{26BD}</b>\n`,
-    missingcant: `\u{2757} Faltan confirmar`,
-    onlygroupmsg: `Solo puedo ser usado en un grupo de telegram \u{1F647}`,
-    help: `soy gel`,
+    help: `Help con listado de comandos`,
   },
   en: {
     start: `Now you can use the bot to create participant listings, see /help to get a list of commands. \n 

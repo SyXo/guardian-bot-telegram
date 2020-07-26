@@ -1,6 +1,6 @@
 // config should be imported before importing any other file
-const polyfill = require("babel-polyfill");
 const { serverport, env } = require("./config/config");
+const polyfill = require("babel-polyfill");
 const app = require("./config/express");
 
 const debug = require("debug")("GuardianOfMoneyBot:index");

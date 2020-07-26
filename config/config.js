@@ -10,6 +10,9 @@ const envVarsSchema = Joi.object({
     .allow(["development", "production", "test"])
     .default("development"),
   NODE_PORT: Joi.number().default(5050),
+  JWT_SECRET: Joi.string()
+    .required()
+    .description("JWT Secret required to sign"),
 })
   .unknown()
   .required();
@@ -25,6 +28,7 @@ const config = {
   serverport: envVars.NODE_PORT,
   tokentelegram: envVars.TOKE_TELEGRAM,
   namebot: envVars.NAME_BOT,
+  jwtSecret: envVars.JWT_SECRET,
 };
 
 module.exports = config;
