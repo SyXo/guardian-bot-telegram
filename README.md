@@ -1,26 +1,13 @@
-<h1 align="center">Welcome to pdf-delivery 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+<h1 align="center">Welcome to The Guardian Bot Telegram 👋</h1>
 
-> React-Hooks app
+> Nodejs Express Api
 
 ## Packages
 
 ### Core
 
-- [bwip-js](https://github.com/metafloor/bwip-js)
-- [pdfMake](https://http://pdfmake.org/)
-
-### Documentation use
-
-- [apiDoc](https://apidocjs.com/)
-- File txt: /documentation
-- Examples pdf: /examples
-
-### Dotnet
-
-- Classes: /dotnet
+- [telegraf](https://telegraf.js.org/)
+- [firebase-admin](https://firebase.google.com/)
 
 ### Test
 
@@ -30,32 +17,27 @@
 ## Install
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Usage
 
 ```sh
-npm start
+yarn start
 ```
 
 ## Build
 
 ```sh
-npm build
+yarn build
 ```
 
 ## Run unit tests
 
 ```sh
-npm test
+yarn test
 ```
 
-## Generate documentation
-
-```sh
-npm run apidocu
-```
 
 ## Author
 
