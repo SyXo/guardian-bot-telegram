@@ -1,15 +1,15 @@
 {
-  "name": "GuardianOfMoneyBot",
+  "name": "guardianofmoneybot",
   "version": "0.0.1",
-  "description": "Telegram bot stores and returns a list of possible scammers.",
+  "description": "Telegram bot stores and returns a list of users telegram.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js --exec babel-node",
     "cleanMac": "rm -rf build && mkdir build",
     "cleanWin": "del build && mkdir build",
     "build": "babel ./ --out-dir ./build --delete-dir-on-start --ignore node_modules,test,loggin",
-    "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha  --ui bdd --reporter spec --colors src --recursive --require babel-register --require babel-polyfill --timeout 15000 --exit",
-    "test:coverage": "cross-env NODE_ENV=test ./node_modules/.bin/istanbul cover _mocha -- --ui bdd --reporter spec --colors src --recursive ---require babel-register --require babel-polyfill --timeout 15000 --exit"
+    "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha  --ui bdd --reporter spec --colors server --recursive --require babel-register --require babel-polyfill --timeout 15000 --exit",
+    "test:coverage": "cross-env NODE_ENV=test ./node_modules/.bin/istanbul cover _mocha -- --ui bdd --reporter spec --colors server --recursive ---require babel-register --require babel-polyfill --timeout 15000 --exit"
   },
   "husky": {
     "hooks": {

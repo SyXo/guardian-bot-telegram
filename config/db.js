@@ -1,4 +1,4 @@
 const Datastore = require("nedb-promises");
-const db = new Datastore({ filename: "./db/scammers.db", autoload: true });
+const db = new Datastore({ filename: "./db/users.db", autoload: true });
 
 module.exports = db;

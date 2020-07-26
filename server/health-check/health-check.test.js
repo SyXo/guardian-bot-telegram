@@ -9,7 +9,7 @@ chai.config.includeStack = true;
 describe("## Heaalth check APIs", () => {
   it("should get string Service Up!", (done) => {
     request(app)
-      .get("/pdf-delivery/v1/health-check")
+      .get("/guardianbot/v1/health-check")
       .expect(httpStatus.OK)
       .then((res) => {
         expect(res.body).to.be.an("object");

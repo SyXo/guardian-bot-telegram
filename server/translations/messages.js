@@ -1,6 +1,6 @@
 const messagesDefine = {
   es: {
-    start: `Hola soy The Guardian voy a protegerte de los estafadores, para poder hacerlo necesito que me informes qué usuarios son sospechosos.
+    start: `Hola soy The Guardian voy a protegerte, para poder hacerlo necesito que cargues los usuarios de telegram.
     \n El listado se arma por la comunidad cualquier usuario puede enviar un presunto scammer para ser agregado.
     \n Para obtener un listado de comandos escriba /help.
     `,

@@ -66,7 +66,7 @@ if (env === "production") {
 }
 
 // mount all routes on /api path
-app.use("/guardian-of-money-bot", routes);
+app.use("/guardianbot", routes);
 
 //if error is not an instanceOf APIError, convert it.
 app.use((err, req, res, next) => {
